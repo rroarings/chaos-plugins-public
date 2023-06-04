@@ -88,7 +88,7 @@ public class Hop extends Task {
                 return false;
               }
 
-              if (w.isAllPkWorld() || w.isTournament() || w.isLeague() || w.isPvpArena()) {
+              if (w.isAllPkWorld() || w.isTournament() || w.isQuestSpeedRunning() || w.isLeague() || w.isPvpArena()) {
                 return false;
               }
 
